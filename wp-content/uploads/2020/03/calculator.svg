@@ -1,0 +1,35 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 76 77.33"><defs><style>
+			.cls-1{
+				fill:none;
+				stroke:#6552e2;
+				stroke-miterlimit:10;
+				stroke-width:1.5px;
+				stroke-dasharray: 192;
+				stroke-dashoffset: 190;
+				animation: line 2s linear forwards;
+   			 -webkit-transition: all 2s ease;
+			}
+			#Layer_1:hover .cls-1{
+			stroke-dasharray: 192;
+			stroke-dashoffset: 190;
+			stroke:#6aff00;
+			animation: line2 3s linear forwards;
+			}
+			@keyframes line {
+				from {
+					stroke-dashoffset: 192;
+				}
+				to {
+					stroke-dashoffset: 0;
+				}
+			}
+			@keyframes line2 {
+				from {
+					stroke-dashoffset: 192;
+				}
+				to {
+					stroke-dashoffset: 0;
+				}
+			}
+		</style>
+</defs><title>calculator</title><path class="cls-1" d="M23.33,18.33s-2.83-.83-2.67,3v28s-.83,3.83,2.67,4.17H44.17s3.83-.67,4-3.17V20.83s.17-2.32-2.67-2.58Z"/><path class="cls-1" d="M27.83,22.83s-2.67.33-2,2.33l-.11,3.17a1.94,1.94,0,0,0,2.11,2.17h13s2.67-.67,2.5-2.17V25s0-2.5-1.84-2.5Z"/><line class="cls-1" x1="25.72" y1="36.83" x2="30.5" y2="36.83"/><line class="cls-1" x1="25.72" y1="42.17" x2="30.5" y2="42.17"/><line class="cls-1" x1="25.72" y1="47.5" x2="30.5" y2="47.5"/><line class="cls-1" x1="34.37" y1="36.83" x2="38.83" y2="36.83"/><line class="cls-1" x1="34.37" y1="42.17" x2="38.83" y2="42.17"/><line class="cls-1" x1="33.83" y1="47.5" x2="38.83" y2="47.5"/><line class="cls-1" x1="43.34" y1="35.88" x2="43.34" y2="48.67"/></svg>

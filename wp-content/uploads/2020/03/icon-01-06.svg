@@ -1,0 +1,25 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72.17 69.58" width="65px" height="50px">
+	<defs>
+		<style>
+			.cls-1{
+				fill:none;
+				stroke:#223FB5;
+				stroke-miterlimit:10;
+				stroke-width:1.5px;
+				stroke-dasharray: 192;
+				stroke-dashoffset: 190;
+				animation: line 2s linear forwards;
+			}
+			@keyframes line {
+				from {
+					stroke-dashoffset: 192;
+				}
+				to {
+					stroke-dashoffset: 0;
+				}
+			}
+		</style>
+	</defs>
+	<title>icon-01</title>
+	<path class="cls-1" d="M47.25,44s-27.5,4-29.5-18.25c0,0-2.5-18.79,24.75-19,0,0,23.5-1.22,24,18.77,0,0,0,9.74-7.75,14.49l-.5,13.25ZM17.75,25.75S5.75,27,4.25,39c0,0-1,7.5,6.75,13l0,11.25L19.5,55.5s17.75,2.5,24-11" />
+</svg>

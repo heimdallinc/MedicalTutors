@@ -1,0 +1,35 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 74.67 62"><defs><style>
+			.cls-1{
+				fill:none;
+				stroke:#6552e2;
+				stroke-miterlimit:10;
+				stroke-width:1.5px;
+				stroke-dasharray: 192;
+				stroke-dashoffset: 190;
+				animation: line 2s linear forwards;
+   			 -webkit-transition: all 2s ease;
+			}
+			#Layer_1:hover .cls-1{
+			stroke-dasharray: 192;
+			stroke-dashoffset: 190;
+			stroke:#6aff00;
+			animation: line2 3s linear forwards;
+			}
+			@keyframes line {
+				from {
+					stroke-dashoffset: 192;
+				}
+				to {
+					stroke-dashoffset: 0;
+				}
+			}
+			@keyframes line2 {
+				from {
+					stroke-dashoffset: 192;
+				}
+				to {
+					stroke-dashoffset: 0;
+				}
+			}
+		</style>
+</defs><title>search</title><path class="cls-1" d="M42.25,35.92s9.63-9.06,0-18.75c0,0-10-7.5-18.75,2.25,0,0-6.87,8.06,0,16.5,0,0,8.94,7.63,18.75,0C42.66,35.6,41.84,36.29,42.25,35.92Z"/><path class="cls-1" d="M41.38,36.92l4.31,4.38s-.94,1.38-.56,2.25l9.25,8.31a4.53,4.53,0,0,0,3.31,0l1.7-1.56A3.36,3.36,0,0,0,58.5,47L49.88,39a2.31,2.31,0,0,0-2.44.26l-4-4.14"/><path class="cls-1" d="M22.31,33.42s4.56-4.5,8.5-3.19c0,0,5.06.94,5.69,3.56,0,0,6.13.13-.25,5.13"/><path class="cls-1" d="M28.75,15.29s-1.62,3.75.44,4.25c0,0,7.52-1.69,10-4.25"/><path class="cls-1" d="M46.31,26.35s-3.06,1.13-3.44-1c0,0,.25,3.56-1.5,5.06,0,0-3.81-.75-3.87-4.5,0,0-4.56,2.19-5.19-.56,0,0-3.31-2.06,0-4.37l2.94.63,1.25-2.44,2.65-2.94"/></svg>

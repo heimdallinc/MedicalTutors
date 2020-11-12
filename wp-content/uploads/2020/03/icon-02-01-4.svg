@@ -1,0 +1,19 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 57" width="65px" height="50px"><defs><style>
+			.cls-1{
+				fill:none;
+				stroke:#223FB5;
+				stroke-miterlimit:10;
+				stroke-width:1.5px;
+				stroke-dasharray: 192;
+				stroke-dashoffset: 190;
+				animation: line 2s linear forwards;
+			}
+			@keyframes line {
+				from {
+					stroke-dashoffset: 192;
+				}
+				to {
+					stroke-dashoffset: 0;
+				}
+			}
+		</style></defs><title>icon-02</title><path class="cls-1" d="M11.07,46.16h3.12V33.91S3.62,37,1.94,25c0,0-1-7.69,7.45-9.85,0,0,1-7,8.41-5,0,0,2.4-7.45,12.5-7.45M41.11,34.39S49,34.63,50,26.22c0,0,1.44-7.21-6.73-8.65,0,0,.25-10.57-8.41-13.7m-13,44.7V34.39H16.1M30.29,48.57V34.39H24.53M41.35,46.16H38V34.39h-5M7.65,43.28a2.88,2.88,0,1,0,2.88,2.88A2.88,2.88,0,0,0,7.65,43.28Zm14.23,5.29a2.88,2.88,0,1,0,2.88,2.88A2.88,2.88,0,0,0,21.88,48.57Zm8.41,0a2.88,2.88,0,1,0,2.88,2.88A2.88,2.88,0,0,0,30.29,48.57Zm13.94-5.29a2.88,2.88,0,1,0,2.88,2.88A2.88,2.88,0,0,0,44.23,43.28Z"/></svg>

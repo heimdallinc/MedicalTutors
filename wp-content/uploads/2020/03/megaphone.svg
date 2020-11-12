@@ -1,0 +1,35 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 65"><defs><style>
+			.cls-1{
+				fill:none;
+				stroke:#6552e2;
+				stroke-miterlimit:10;
+				stroke-width:1.5px;
+				stroke-dasharray: 192;
+				stroke-dashoffset: 190;
+				animation: line 2s linear forwards;
+   			 -webkit-transition: all 2s ease;
+			}
+			#Layer_1:hover .cls-1{
+			stroke-dasharray: 192;
+			stroke-dashoffset: 190;
+			stroke:#6aff00;
+			animation: line2 3s linear forwards;
+			}
+			@keyframes line {
+				from {
+					stroke-dashoffset: 192;
+				}
+				to {
+					stroke-dashoffset: 0;
+				}
+			}
+			@keyframes line2 {
+				from {
+					stroke-dashoffset: 192;
+				}
+				to {
+					stroke-dashoffset: 0;
+				}
+			}
+		</style>
+</defs><title>megaphone</title><path class="cls-1" d="M24.17,30l-7.33,4.83S14.5,37,16.83,41c0,0,3.17,3,6.33,2l6.17-4.5Z"/><path class="cls-1" d="M23.5,43.2,27,50.33s4.33,2.33,4.83-2l-5-7.67"/><path class="cls-1" d="M24.5,30,35.17,16.67a1.76,1.76,0,0,1,3.17,0L47.17,32s2.25,3.33-1.67,3.58L29.76,38l2.07,2.67c.33,2.67-2.5,1.33-2.5,1.33l-1.67-1.33"/><line class="cls-1" x1="34.67" y1="18.5" x2="44.58" y2="34.58"/><path class="cls-1" d="M42.5,22.67s5.08-1,2.08,4.25"/><path class="cls-1" d="M18.5,37.92s1.42,4.08,5,.5"/><line class="cls-1" x1="45.53" y1="18.5" x2="46.75" y2="12.92"/><line class="cls-1" x1="48.83" y1="20.92" x2="54.58" y2="17.5"/><line class="cls-1" x1="49.83" y1="25.92" x2="55.5" y2="25.92"/></svg>

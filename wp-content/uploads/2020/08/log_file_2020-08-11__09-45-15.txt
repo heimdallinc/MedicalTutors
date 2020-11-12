@@ -1,0 +1,72 @@
+
+---Downloaded files---
+The import files for: Demo 1 were successfully downloaded!
+Initial max execution time = 300
+Files info:
+Site URL = http://mt.heimdallprodev.com
+Data file = /home/heimdal1/mt.heimdallprodev.com/wp-content/themes/coursector/data/demos/demo1/demo.xml
+Widget file = /home/heimdal1/mt.heimdallprodev.com/wp-content/themes/coursector/data/demos/demo1/demo.json
+Customizer file = /home/heimdal1/mt.heimdallprodev.com/wp-content/themes/coursector/data/demos/demo1/demo.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+[WARNING] Failed to import action-group woocommerce-db-updates
+
+
+------
+New AJAX call!
+[WARNING] Failed to import action-group woocommerce-db-updates
+
+
+------
+New AJAX call!
+[WARNING] Failed to import action-group woocommerce-db-updates
+
+
+------
+New AJAX call!
+[WARNING] Failed to import action-group woocommerce-db-updates
+
+
+---Importing widgets---
+Page Sidebar : 
+
+Theme Recent Posts - No Title - Imported
+Image - No Title - Imported
+
+Single Post Sidebar : 
+
+Theme Recent Posts - No Title - Imported
+Image - No Title - Imported
+
+Single Course Sidebar : 
+
+Custom HTML - Training 5 or more people? - Imported
+
+Category Sidebar : 
+
+Categories - Categories - Imported
+Theme Recent Posts - No Title - Imported
+Image - No Title - Imported
+
+Search Sidebar : 
+
+Image - No Title - Imported
+Theme Recent Posts - No Title - Imported
+Tag Cloud - Tags - Imported
+
+Tag Sidebar : 
+
+Categories - Categories - Imported
+Theme Recent Posts - No Title - Imported
+Image - No Title - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---pt-ocdi/after_import---
+

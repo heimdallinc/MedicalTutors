@@ -1,0 +1,35 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 57"><defs><style>
+			.cls-1{
+				fill:none;
+				stroke:#6552e2;
+				stroke-miterlimit:10;
+				stroke-width:1.5px;
+				stroke-dasharray: 192;
+				stroke-dashoffset: 190;
+				animation: line 2s linear forwards;
+   			 -webkit-transition: all 2s ease;
+			}
+			#Layer_1:hover .cls-1{
+			stroke-dasharray: 192;
+			stroke-dashoffset: 190;
+			stroke:#6aff00;
+			animation: line2 3s linear forwards;
+			}
+			@keyframes line {
+				from {
+					stroke-dashoffset: 192;
+				}
+				to {
+					stroke-dashoffset: 0;
+				}
+			}
+			@keyframes line2 {
+				from {
+					stroke-dashoffset: 192;
+				}
+				to {
+					stroke-dashoffset: 0;
+				}
+			}
+		</style>
+</defs><title>Untitled-1</title><path class="cls-1" d="M21.25,29.75s-2.5-1.75-4.5,0l-6.5,7A9.21,9.21,0,0,0,8.75,44a17.38,17.38,0,0,0,4.58,4.56s4.92.94,6.42-1.56l7.08-7.75s2.08-3.83-1.08-5.17"/><path class="cls-1" d="M31.08,29a4.32,4.32,0,0,0,5.08.36L44,21s2.17-3.42,0-5.67L39.33,11a4.41,4.41,0,0,0-5.08.42l-6.74,7a5.75,5.75,0,0,0-1.09,6.17"/><line class="cls-1" x1="21" y1="35.08" x2="32.08" y2="23.92"/></svg>
