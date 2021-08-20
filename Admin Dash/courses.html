@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+<title>Medical Tutors</title>    <!-- MDB icon -->
+    <link rel="icon" href="../img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="../css/mdb.min.css" />
+    <link rel="stylesheet" href="../css/courses.css">
+  </head>
+  <body>
+    <!-- Start your project here-->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-mdb-toggle="collapse"
+          data-mdb-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          id="togglebtn"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="">
+          <a class="navbar-brand" href="../index.html">
+            <img
+            src="../img/Brand Logo.png"
+            
+            alt=""
+            loading="lazy"
+            height="50px"
+          
+          />
+          </a>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+           
+            <li class="nav-item">
+              <a class="nav-link" href="#">Dashboard</a>
+            </li>
+            
+          </ul>
+          <form class="d-flex w-auto">
+              <a
+              class="btn btn-primary btn-lg btn-floating"
+              style="background-color: #EFF2FF;
+              margin-right: 20px;
+              color: #06163A;
+              font-size: 20px;
+              display: flex;
+              align-items: center;
+              box-shadow: none;
+              "
+              href="#!"
+              role="button"
+              ><i class="fa fa-bell" aria-hidden="true"
+              style="position: relative; left: 9%;"
+              ></i>
+          </a>
+
+
+              <a class="btn btn-primary" style="background-color: #EFF2FF;color: #06163A; box-shadow: none;" href="#!" role="button"
+              ><i class="fa fa-user-circle" aria-hidden="true" style="color: #4F84CF; font-size: 15px;"></i>
+              My Profile</a
+            >
+          </form>
+        </div>
+      </div>
+    </nav>
+
+
+
+     <!-- Sidebar -->
+
+      
+
+     <div class="row">
+      <div class="col-md-3">
+      <div class="container-fluid" id="">
+        <nav id="nav-sidebar" class="bg-faded">
+          <div class="sidebar-expand hidden-md-up">
+            
+          </div>
+    
+          <div class="sidebar-content hidden-sm-down" >
+            <ul class="nav nav-pills flex-column">
+  
+              <li class="nav-item">
+                <i class="fa fa-home" aria-hidden="true"></i> <a class="activity" href="/pages/dashboard.html">Dashboard <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <i class="fas fa-book-open"></i><a class="" href="/pages/courses.html">Courses</a>
+              </li>
+              <li class="nav-item">
+                <i class="fas fa-user-friends"></i><a class="" href="/pages/students.html">Students</a>
+              </li>
+            
+                      </ul>
+            <hr/>
+                      
+  
+          
+                      
+  
+            <ul class="nav nav-pills flex-column">
+              <li class="nav-item">
+                <i class="fas fa-cog"></i><a class="" href="/pages/settings.html">Settings</a>
+              </li>
+              
+              <li class="nav-item">
+                <i class="fas fa-sign-out-alt"></i><a class="" href="#">Log Out</a>
+              </li>
+            </ul>
+  
+          </div>
+          
+              </nav>
+            </div>
+      </div>
+
+            <div class="col-md-9" style="background-color: #F4F5F9; height: 100vh;">
+                <div class="topnav sample" id="topnav">
+                    <a href="#home" class="lis active" onclick="filterSelection('active')">Enrolled Courses</a>
+                    <a href="#news" class="lis" onclick="filterSelection('inactive')">Completed Courses</a>
+                    <a href="#contact" class="lis" onclick="filterSelection('total')">Total courses</a>
+                </div>
+                
+                
+                
+                <div class="card mb-3 filterDiv active sample" style="max-width: 850px; height: 200px; margin-top: 20px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <a
+                      class="btn btn-primary btn-lg btn-floating box-icon"
+                      style="background-color: #EFF2FF;
+                      margin-right: 0px;
+                      color: #06163A;
+                      height: 100px;
+                      width: 100px;
+                      position: relative;
+                      font-size: 60px;
+                      top: 20%;
+                      left: 10%;
+                      box-shadow: none;
+                      "
+                      href="#!"
+                      role="button"
+                      ><i class="fa fa-bell" aria-hidden="true"
+                      style="position: relative; left: 9%;"
+                      ></i>
+                  </a>
+                    </div>
+                    <div class="col-md-8">
+
+                      <div class="card-body" style=" margin-top:20px;">
+                          <div class="rating" tabindex="1" onblur="calculateRating(this)">
+                              <i class="fa fa-star" aria-hidden="true" value="1" onclick="clickStar(this)"></i>
+                              <i class="fa fa-star" aria-hidden="true" value="2" onclick="clickStar(this)"></i>
+                              <i class="fa fa-star" aria-hidden="true" value="3" onclick="clickStar(this)"></i>
+                              <i class="fa fa-star" aria-hidden="true" value="4" onclick="clickStar(this)"></i>
+                              <i class="fa fa-star" aria-hidden="true" value="5" onclick="clickStar(this)"></i>
+                            </div>
+                        <h5 class="card-title" style="font-size: 20px;">Non-Communicable diseases</h5>
+                        <p class="card-text">
+                          Medicine | Internal Medicine <span class="dot"></span> Start Date | September 8, 2020
+                        </p>
+                          <span style="font-size: 20px; color: #254ABF; font-weight: bold;">&#8358;20,000</span> <button class="btn-active">Active </button>
+                          
+                     
+                             <div class="button-grouping">
+                              <button type="button" class="btn btn-outline-primary">Delete</button>
+                              <button type="button" class="btn btn-primary">View/Edit</button>
+                            </div>
+
+
+                      </div>
+                    </div>
+
+
+                    
+                  </div>
+                </div>
+
+                <div class="card mb-3 filterDiv active sample" style="max-width: 850px; height: 200px; margin-top: 20px;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                   
+                        <a
+                        class="btn btn-primary btn-lg btn-floating box-icon"
+                        style="background-color: #EFF2FF;
+                        margin-right: 0px;
+                        color: #06163A;
+                        height: 100px;
+                        width: 100px;
+                        position: relative;
+                        font-size: 60px;
+                        top: 20%;
+                        left: 10%;
+                        box-shadow: none;
+                        "
+                        href="#!"
+                        role="button"
+                        ><i class="fa fa-bell" aria-hidden="true"
+                        style="position: relative; left: 9%;"
+                        ></i>
+                    </a>
+
+                      </div>
+                      <div class="col-md-8">
+
+                        <div class="card-body" style=" margin-top:20px;">
+                            <div class="rating" tabindex="1" onblur="calculateRating(this)">
+                                <i class="fa fa-star" aria-hidden="true" value="1" onclick="clickStar(this)"></i>
+                                <i class="fa fa-star" aria-hidden="true" value="2" onclick="clickStar(this)"></i>
+                                <i class="fa fa-star" aria-hidden="true" value="3" onclick="clickStar(this)"></i>
+                                <i class="fa fa-star" aria-hidden="true" value="4" onclick="clickStar(this)"></i>
+                                <i class="fa fa-star" aria-hidden="true" value="5" onclick="clickStar(this)"></i>
+                              </div>
+                          <h5 class="card-title" style="font-size: 20px;">Non-Communicable diseases</h5>
+                          <p class="card-text">
+                            Medicine | Internal Medicine <span class="dot"></span> Start Date | September 8, 2020
+                          </p>
+                            <span style="font-size: 20px; color: #254ABF; font-weight: bold;">&#8358;20,000</span> <button class="btn-active">Active </button>
+                            
+                       
+                               <div class="button-grouping">
+                                <button type="button" class="btn btn-outline-primary">Delete</button>
+                                <button type="button" class="btn btn-primary">View/Edit</button>
+                              </div>
+
+
+                        </div>
+                      </div>
+
+
+                      
+                    </div>
+                  </div>
+
+
+                  
+                <div class="card mb-3 filterDiv inactive sample" style="max-width: 850px; height: 200px; margin-top: 20px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                 
+                      <a
+                      class="btn btn-primary btn-lg btn-floating box-icon"
+                      style="background-color: #EFF2FF;
+                      margin-right: 0px;
+                      color: #06163A;
+                      height: 100px;
+                      width: 100px;
+                      position: relative;
+                      font-size: 60px;
+                      top: 20%;
+                      left: 10%;
+                      box-shadow: none;
+                      "
+                      href="#!"
+                      role="button"
+                      ><i class="fa fa-bell" aria-hidden="true"
+                      style="position: relative; left: 9%;"
+                      ></i>
+                  </a>
+
+                    </div>
+                    <div class="col-md-8">
+
+                    
+
+                      <div class="card-body" style=" margin-top:20px;">
+                          <div class="rating" tabindex="1" onblur="calculateRating(this)">
+                              <i class="fa fa-star" aria-hidden="true" value="1" onclick="clickStar(this)"></i>
+                              <i class="fa fa-star" aria-hidden="true" value="2" onclick="clickStar(this)"></i>
+                              <i class="fa fa-star" aria-hidden="true" value="3" onclick="clickStar(this)"></i>
+                              <i class="fa fa-star" aria-hidden="true" value="4" onclick="clickStar(this)"></i>
+                              <i class="fa fa-star" aria-hidden="true" value="5" onclick="clickStar(this)"></i>
+                            </div>
+                        <h5 class="card-title" style="font-size: 20px;">Non-Communicable diseases</h5>
+                        <p class="card-text">
+                          Medicine | Internal Medicine <span class="dot"></span> Start Date | September 8, 2020
+                        </p>
+                          <span style="font-size: 20px; color: #254ABF; font-weight: bold;">&#8358;20,000</span> <button class="btn-inactive">Inactive </button>
+                          
+                     
+                             <div class="button-grouping">
+                              <button type="button" class="btn btn-outline-primary">Delete</button>
+                              <button type="button" class="btn btn-primary">View/Edit</button>
+                            </div>
+
+
+                      </div>
+                    </div>
+
+
+                    
+                  </div>
+                </div>
+            </div>   
+
+            </div>
+          </div>
+
+
+
+            
+
+    <!-- End your project here-->
+
+    <!-- MDB -->
+    <script type="text/javascript" src="../js/mdb.min.js"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script>
+      var selector = '.topnav a';
+
+      $(selector).on('click', function(){
+          $(selector).removeClass('active');
+          $(this).addClass('active');
+      });
+    </script>
+    <script src="../js/active.js"></script>
+
+    <!-- Custom scripts -->
+    <!-- rating.js file -->
+     <script src="../js/ratings.js"></script>
+    <script type="text/javascript"></script>
+  </body>
+</html>

@@ -1,0 +1,304 @@
+@font-face {
+    font-family: 'Gordita Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gordita Regular'), url('../assets/fonts/Gordita\ Regular.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Gordita Regular Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gordita Regular Italic'), url('../assets/fonts/Gordita\ Regular\ Italic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Gordita Thin';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gordita Thin'), url('../assets/fonts/Gordita\ Thin.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Gordita Thin Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gordita Thin Italic'), url('../assets/fonts/Gordita\ Thin\ Italic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Gordita Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gordita Light'), url('../assets/fonts/Gordita\ Light.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Gordita Light Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gordita Light Italic'), url('../assets/fonts/Gordita\ Light\ Italic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Gordita Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gordita Medium'), url('../assets/fonts/Gordita\ Medium.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Gordita Medium Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gordita Medium Italic'), url('../assets/fonts/Gordita\ Medium\ Italic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Gordita Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gordita Bold'), url('../assets/fonts/Gordita\ Bold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Gordita Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gordita Bold Italic'), url('../assets/fonts/Gordita\ Bold\ Italic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Gordita Ultra';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gordita Ultra'), url('Gordita Ultra.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Gordita Ultra Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gordita Ultra Italic'), url('Gordita Ultra Italic.woff') format('woff');
+    }
+
+	
+html,body{
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+
+.navbar{
+	z-index: 1;
+}
+/*
+ * Sidebar
+ */
+
+ @media (min-width:1745px) {
+
+    #nav-sidebar{
+        width: 24.5% !important;
+    }
+
+}
+
+.hi{
+	font-family: 'Gordita Bold';	
+}
+
+ #nav-sidebar {
+	position: fixed;
+	width: 430px;
+	/* Should match width of main margin-left*/
+	top: 51px;
+	bottom: 0;
+	left: 0;
+	/* z-index: -1; */
+	padding: 1rem 0;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	/* Scrollable contents if viewport is shorter than content. */
+	border-right: 1px solid #eee;
+	box-shadow: 2px 0 5px 0 rgba(0, 0, 0, .16), 2px 0 10px 0 rgba(0, 0, 0, .12);
+	white-space: nowrap;
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+}
+
+
+.sidebar-expand {
+	display: inline-flex;
+	margin: 0 0 1.5rem 1rem;
+}
+
+.sidebar-expand button {
+	font-size: 2.5rem;
+	line-height: 1.1;
+	color: #000;
+	background: 0 0;
+	border-width: 0;
+	border-color: rgba(255, 255, 255, .1);
+	cursor: pointer;
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+}
+
+.sidebar-header {
+    padding: 0 1rem;
+    
+}
+.sidebar-content{
+    padding: 0 1rem;
+}
+.nav-pills .nav-item,a{
+    display: flex;
+    justify-content: center;
+    color: #06163A;
+    padding-bottom:10px ;
+    /* font-weight: 600; */
+}
+i{
+    margin-top: 3px;
+    margin-right: 10px;
+}
+
+@media(min-width:767px){
+	
+	#nav-sidebar{
+	   max-width: 24.6%;
+	}
+	/* body{
+		background-color: red;
+	} */
+}
+
+@media(max-width:563px){
+	
+	body,html{
+		overflow-y: visible;
+		overflow-x: visible;
+		/* background-color: red; */
+		/* height: 50000px; */
+	}
+	.card-body{
+		position: relative;
+		bottom: 10px;
+	}
+}
+
+
+@media (max-width:769px) {
+	#nav-topbar .brand-container,
+	#nav-sidebar{
+		/* width: 50px; */
+		display: none;
+		z-index: 1;
+		background-color: #fff;
+	}
+	.sidebar-content {
+		z-index: 1;
+	}
+	#nav-topbar .brand-container.active,
+	#nav-sidebar.active {
+		width: 225px;
+		min-width: 50px;
+		max-width: 225px;
+	}
+	#nav-sidebar.active .sidebar-content {
+		display: block !important;
+	}
+	main {
+		margin-left: 50px;
+	}
+	.card{
+		min-height: 230px;
+	}
+}
+
+
+/*
+ * Transforms
+ */
+
+ .rotate-90cw {
+	transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+}
+
+.rotate-180cw {
+	transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+}
+
+.rotate-90ccw {
+	transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+}
+
+.rotate-180ccw {
+	transform: rotate(-180deg);
+	-webkit-transform: rotate(-180deg);
+	-moz-transform: rotate(-180deg);
+	-ms-transform: rotate(-180deg);
+}
+
+.flip-y {
+	transform: perspective(100px) rotateY(180deg);
+	-webkit-transform: perspective(100px) rotateY(180deg);
+	-moz-transform: perspective(100px) rotateY(180deg);
+	-ms-transform: perspective(100px) rotateY(180deg);
+}
+
+.flip-x {
+	transform: perspective(100px) rotateX(180deg);
+	-webkit-transform: perspective(100px) rotateX(180deg);
+	-moz-transform: perspective(100px) rotateX(180deg);
+	-ms-transform: perspective(100px) rotateX(180deg);
+}
+
+.nav-item:hover{
+	font-weight: bold;
+}
+.nav-item > a:hover{
+   font-weight: bold;
+}
+.activity{
+	font-weight: bolder;
+}
+
+.instructor{
+	background: #FFDE91;
+	padding: 5px;
+	margin-left: 10px;
+	color: #06163A;
+	position: relative;
+	bottom: 5px;
+	font-family: 'Gordita Regular';
+}
+
+.secondary-text{
+	color: #2F3C47;
+	margin-top: 10px;
+}

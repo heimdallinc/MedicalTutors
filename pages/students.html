@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+<title>Medical Tutors</title>    <!-- MDB icon -->
+    <link rel="icon" href="../img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="../css/mdb.min.css" />
+    <link rel="stylesheet" href="../css/students.css">
+  </head>
+  <body>
+    <!-- Start your project here-->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-mdb-toggle="collapse"
+          data-mdb-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          id="togglebtn"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="">
+          <a class="navbar-brand" href="../index.html">
+            <img
+              src="../img/Brand Logo.png"
+              
+              alt=""
+              loading="lazy"
+              height="60px"
+            
+            />
+          </a>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+           
+            <li class="nav-item">
+              <a class="nav-link" href="#">Dashboard</a>
+            </li>
+            
+          </ul>
+          <form class="d-flex w-auto">
+              <a
+              class="btn btn-primary btn-lg btn-floating"
+              style="background-color: #EFF2FF;
+              margin-right: 20px;
+              color: #06163A;
+              font-size: 20px;
+              display: flex;
+              align-items: center;
+              box-shadow: none;
+              "
+              href="#!"
+              role="button"
+              ><i class="fa fa-bell" aria-hidden="true"
+              style="position: relative; left: 9%;"
+              ></i>
+          </a>
+
+
+              <a class="btn btn-primary" style="background-color: #EFF2FF;color: #06163A; box-shadow: none;" href="#!" role="button"
+              ><i class="fa fa-user-circle" aria-hidden="true" style="color: #4F84CF; font-size: 15px;"></i>
+              My Profile</a
+            >
+          </form>
+        </div>
+      </div>
+    </nav>
+
+
+     <!-- Sidebar -->
+
+		<div class="row">
+        <div class="col-md-3">
+            
+          <div class="container-fluid ourbg">
+			<nav id="nav-sidebar" class="bg-faded">
+
+				<div class="sidebar-expand hidden-md-up">
+					<!-- <button type="button">
+              <i class="fa fa-angle-right"></i>
+            </button> -->
+				</div>
+				<div class="sidebar-header hidden-sm-down">
+					<!-- <h1>Sidebar</h1> -->
+				</div>
+				<div class="sidebar-content hidden-sm-down">
+					<ul class="nav nav-pills flex-column">
+
+						<li class="nav-item">
+              <i class="fa fa-home" aria-hidden="true"></i> <a class="active" href="/pages/dashboard.html">Dashboard <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<i class="fas fa-book-open"></i><a class="" href="/pages/courses.html">Courses</a>
+						</li>
+						<li class="nav-item">
+							<i class="fas fa-user-friends"></i><a class="" href="/pages/students.html">Students</a>
+						</li>
+						<!-- <li class="nav-item">
+							<a class="" href="#">Export</a>
+						</li> -->
+                    </ul>
+					<hr/>
+                    
+
+					<ul class="nav nav-pills flex-column">
+						<li class="nav-item">
+							<i class="far fa-comment-alt"></i><a class="" href="#">Quizzes</a>
+						</li>
+						<li class="nav-item">
+							<i class="fa fa-home" aria-hidden="true"></i><a class="" href="#">Announcement</a>
+						</li>
+						<li class="nav-item">
+							<i class="far fa-star"></i><a class="" href="#">Reviews</a>
+						</li>
+						<!-- <li class="nav-item">
+							<a class="" href="#">Another nav item</a>
+						</li> -->
+                    </ul>
+					<hr/>
+                    
+
+					<ul class="nav nav-pills flex-column">
+						<li class="nav-item">
+							<i class="fas fa-cog"></i><a class="" href="/pages/settings.html">Settings</a>
+						</li>
+						<li class="nav-item">
+							<i class="fa fa-home" aria-hidden="true"></i><a class="" href="#">FAQs</a>
+						</li>
+						<li class="nav-item">
+							<i class="fas fa-sign-out-alt"></i><a class="" href="#">Log Out</a>
+						</li>
+					</ul>
+
+				</div>
+
+            </nav>
+        </div>
+
+            </div>
+
+<div class="col-md-9" style="background-color: #F4F5F9;height: 100vh;">
+
+                <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light nav-spacing" style="background-color: white; margin-top: 40px; margin-left: 
+    50px; width: 90%;">
+    <!-- Container wrapper -->
+    <div class="container-fluid">
+      <!-- Navbar brand -->
+      <a class="navbar-brand" href="#" style="color: #2F3C47;">Filter Customer</a>
+  
+      <!-- Toggle button -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-mdb-toggle="collapse"
+        data-mdb-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="fas fa-bars"></i>
+      </button>
+  
+      <!-- Collapsible wrapper -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+        <!-- Left links -->
+        
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            
+            <span class="vl"></span>
+            <input
+            type="search"
+            class="form-control searchbar"
+            placeholder="Search by customer name,email or phone number"
+            aria-label="Search"
+            
+          />
+          
+        
+            <!-- Dropdown menu -->
+         
+        </ul>
+        <!-- Left links -->
+  
+        <!-- Search form -->
+        <form class="d-flex w-auto">
+         
+            <a class="btn btn-success" style="background-color: #1DC34B" href="#!" role="button"
+            >Export Csv <i class="fas fa-cloud-download-alt"></i></a
+          >
+        </form>
+      </div>
+    </div>
+ 
+  </nav>
+  <!-- Navbar -->
+        
+  <div class="card">
+    <div class="card-body">
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col"></th>
+                <th scope="col">Customer Email</th>
+                <th scope="col">Full name</th>
+                <th scope="col">Phone Number</th>
+                <th scope="col">Practice Level</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row"><span class="dot"></span></th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+                <td>@fat</td>
+
+              </tr>
+              <tr>
+                <th scope="row"><span class="dot"></span></th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+                <td>@fat</td>
+
+              </tr>
+              <tr>
+                <th scope="row"><span class="dot"></span></th>
+                <td>Larry the Bird</td>
+                <td>@mdo</td>
+                <td>@twitter</td>
+                <td>@fat</td>
+
+                
+              </tr>
+              <tr>
+                <th scope="row"><span class="dot"></span></th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+                <td>@fat</td>
+
+              </tr>
+             
+              
+            </tbody>
+          </table>
+    </div>
+  </div>
+
+
+
+            </div>   
+
+            </div>
+
+
+            
+
+    <!-- End your project here-->
+
+    <!-- MDB -->
+    <script type="text/javascript" src="../js/mdb.min.js"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- 
+    <script>
+      var selector = '.topnav a';
+
+      $(selector).on('click', function(){
+          $(selector).removeClass('active');
+          $(this).addClass('active');
+      });
+    </script> -->
+    <script src="../js/active.js"></script>
+
+    <!-- Custom scripts -->
+    <!-- rating.js file -->
+     <script src="../js/ratings.js"></script>
+    <script type="text/javascript"></script>
+  </body>
+</html>

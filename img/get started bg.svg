@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="876" height="186" viewBox="0 0 876 186">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_57" data-name="Rectangle 57" width="876" height="186" transform="translate(526 1647)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="get_started_bg" data-name="get started bg" transform="translate(-526 -1647)" clip-path="url(#clip-path)">
+    <path id="Path_198" data-name="Path 198" d="M0,0H876.288V185.348H0Z" transform="translate(525.712 1647.344)" fill="#e6f1fb"/>
+    <g id="Ellipse_16" data-name="Ellipse 16" transform="translate(457 1764)" fill="none" stroke="#a6c6e3" stroke-width="2">
+      <circle cx="77.5" cy="77.5" r="77.5" stroke="none"/>
+      <circle cx="77.5" cy="77.5" r="76.5" fill="none"/>
+    </g>
+    <g id="Ellipse_17" data-name="Ellipse 17" transform="translate(1215 1524)" fill="none" stroke="#a6c6e3" stroke-width="2">
+      <circle cx="77.5" cy="77.5" r="77.5" stroke="none"/>
+      <circle cx="77.5" cy="77.5" r="76.5" fill="none"/>
+    </g>
+    <g id="Ellipse_18" data-name="Ellipse 18" transform="translate(1086.518 1791.271) rotate(-7)" fill="none" stroke="#a6c6e3" stroke-width="2">
+      <ellipse cx="184.5" cy="91.5" rx="184.5" ry="91.5" stroke="none"/>
+      <ellipse cx="184.5" cy="91.5" rx="183.5" ry="90.5" fill="none"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,209 @@
+@font-face {
+    font-family: 'Gordita Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gordita Regular'), url('../assets/fonts/Gordita\ Regular.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Gordita Regular Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gordita Regular Italic'), url('../assets/fonts/Gordita\ Regular\ Italic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Gordita Thin';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gordita Thin'), url('../assets/fonts/Gordita\ Thin.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Gordita Thin Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gordita Thin Italic'), url('../assets/fonts/Gordita\ Thin\ Italic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Gordita Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gordita Light'), url('../assets/fonts/Gordita\ Light.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Gordita Light Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gordita Light Italic'), url('../assets/fonts/Gordita\ Light\ Italic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Gordita Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gordita Medium'), url('../assets/fonts/Gordita\ Medium.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Gordita Medium Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gordita Medium Italic'), url('../assets/fonts/Gordita\ Medium\ Italic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Gordita Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gordita Bold'), url('../assets/fonts/Gordita\ Bold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Gordita Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gordita Bold Italic'), url('../assets/fonts/Gordita\ Bold\ Italic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Gordita Ultra';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gordita Ultra'), url('Gordita Ultra.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Gordita Ultra Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gordita Ultra Italic'), url('Gordita Ultra Italic.woff') format('woff');
+    }
+
+    
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    height: 100%;
+    background: #F4F5F9;
+    overflow-x: hidden;
+  }
+.container{
+    /* display: flex;
+    justify-content: center; */
+    /* align-content: center;  */
+    margin: 50px auto;
+    position: relative;
+    right: 10%;
+}
+
+
+.centered__box{
+    height: 80vh;
+    max-width: 100%;
+    background-image: url('../img/medic.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    object-fit: cover;
+    background-position: center;
+   /* display: flex; */
+}
+.card{
+    max-width: 750px;
+    height: auto;
+    position: relative;
+    top: -5%;
+    left: 48%;
+    height: 570px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.card-body{
+    /* display: grid; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* width: 80%; */
+    /* position: relative;
+    left: 10%; */
+}
+.select:not(.is-multiple):not(.is-loading)::after {
+    border-color: #000;
+}
+.file{
+    min-width: 80px;
+}
+
+h5{
+    font-family: 'Gordita Medium';
+}
+.a{
+    font-family: 'Gordita Regular';
+}
+
+.b{
+    font-family: 'Gordita Regular';
+}
+
+
+@media (min-width:1745px){
+
+      .card{
+          max-width: 870px;
+          height: 90vh !important;
+      }
+      .dropa{
+           max-width: 10px !important;
+           height: 100px;
+      }
+}
+
+@media (max-width:500px){
+    .card{
+        height: 780px;
+        /* display: flex;
+        position: relative;
+        left: 100px; */
+        /* margin: auto; */
+        position: absolute !important;
+    }
+}
+
+@media (max-width:800px){
+    .card{
+        height: 780px;
+        display: flex;
+        position: absolute;
+        left: 30%;
+    }
+  
+
+}
+
+@media (min-width:800px){
+    .card{
+        height: 750px;
+    }
+}
+
+
+@media (min-width:1300px){
+    .last-btn{
+        margin-top: 100px !important;
+    }
+}
