@@ -448,16 +448,6 @@
    /* background-color: red; */
 
 }
-
-/* .trending{
-    height: 150px;
-    background-color: red;
-    width: 100%;
-    display: flex;
-    justify-content: stretch;
-    align-items: center;
-    text-align: center;
-} */
 .trending--container span{
     font-size: 20px;
     font-weight: bold;
@@ -590,6 +580,7 @@
 .find-help{
     margin-top: 50px;
     display: flex;
+    width: 100%;
     
 }
 .btn-fln i{
