@@ -1,0 +1,286 @@
+   body,html{
+	   overflow-y: hidden;
+	   overflow-x: hidden;
+   }
+/*
+ * Sidebar
+ */
+ .navbar{
+	 z-index: 1;
+ }
+
+ @media (min-width:1745px) {
+
+    #nav-sidebar{
+        width: 24.5% !important;
+    }
+
+}
+
+ #nav-sidebar {
+	position: fixed;
+	width: 430px;
+	height: 100%;
+	/* Should match width of main margin-left*/
+	top: 51px;
+	bottom: 0;
+	left: 0;
+	/* z-index: -1; */
+	padding: 1rem 0;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	/* Scrollable contents if viewport is shorter than content. */
+	border-right: 1px solid #eee;
+	box-shadow: 2px 0 5px 0 rgba(0, 0, 0, .16), 2px 0 10px 0 rgba(0, 0, 0, .12);
+	white-space: nowrap;
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+}
+
+.sidebar-expand {
+	display: inline-flex;
+	margin: 0 0 1.5rem 1rem;
+}
+
+.sidebar-expand button {
+	font-size: 2.5rem;
+	line-height: 1.1;
+	color: #000;
+	background: 0 0;
+	border-width: 0;
+	border-color: rgba(255, 255, 255, .1);
+	cursor: pointer;
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+}
+
+.sidebar-header {
+    padding: 0 1rem;
+    
+}
+.sidebar-content{
+    padding: 0 1rem;
+}
+.nav-pills .nav-item,a{
+    display: flex;
+    justify-content: center;
+    color: #06163A;
+    padding-bottom:10px ;
+    /* font-weight: 600; */
+}
+i{
+    margin-top: 3px;
+    margin-right: 10px;
+}
+
+@media(min-width:767px){
+	
+	#nav-sidebar{
+	   max-width: 24.6%;
+	}
+	/* body{
+		background-color: red;
+	} */
+}
+
+
+
+
+@media (max-width:767px) {
+
+	#nav-topbar .brand-container,
+	#nav-sidebar{
+		/* width: 50px; */
+		display: none;
+		z-index: 1;
+		background-color: #fff;
+	}
+	.sidebar-content {
+		z-index: 1;
+	}
+	#nav-topbar .brand-container.active,
+	#nav-sidebar.active {
+		width: 225px;
+		min-width: 50px;
+		max-width: 225px;
+	}
+	#nav-sidebar.active .sidebar-content {
+		display: block !important;
+	}
+	main {
+		margin-left: 50px;
+	}
+	.card-body{
+		position: relative;
+		left: 200px;
+		bottom: 110px;
+		width: 50%;
+		
+		
+	}
+	.card{
+		width: 80%;
+		min-height: 300px;
+		/* height: 30%; */
+
+	}
+	.button-grouping button{
+		position: relative;
+		right: 450px;
+		top: 100px;
+		/* margin-right: 50%; */
+	}
+
+}
+
+
+/*
+ * Transforms
+ */
+
+ .rotate-90cw {
+	transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+}
+
+.rotate-180cw {
+	transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+}
+
+.rotate-90ccw {
+	transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+}
+
+.rotate-180ccw {
+	transform: rotate(-180deg);
+	-webkit-transform: rotate(-180deg);
+	-moz-transform: rotate(-180deg);
+	-ms-transform: rotate(-180deg);
+}
+
+.flip-y {
+	transform: perspective(100px) rotateY(180deg);
+	-webkit-transform: perspective(100px) rotateY(180deg);
+	-moz-transform: perspective(100px) rotateY(180deg);
+	-ms-transform: perspective(100px) rotateY(180deg);
+}
+
+.flip-x {
+	transform: perspective(100px) rotateX(180deg);
+	-webkit-transform: perspective(100px) rotateX(180deg);
+	-moz-transform: perspective(100px) rotateX(180deg);
+	-ms-transform: perspective(100px) rotateX(180deg);
+}
+
+.topnav {
+    /* background-color: #333; */
+    overflow: hidden;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	border-bottom: 1px solid gray;
+	
+  }
+
+  .sample{
+	margin-top: 40px; 
+	margin-left: 50px
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: flex;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+  }
+
+
+  .nav-item:hover{
+       font-weight: bold;
+  }
+  .nav-item > a:hover{
+	  font-weight: bold;
+  }
+  
+  .topnav a:hover {
+    border-bottom: 3px solid #254ABF;
+  }
+  
+  .topnav a.active {
+    border-bottom: 3px solid #254ABF;
+  }
+
+ /* a .activity{
+	border-bottom: 3px solid #254ABF;
+  } */
+
+  .clicked{
+    color:orange;
+}
+
+
+
+.card-body{
+	position: relative;
+	right: 28%;
+}
+
+.btn-active{
+	width: 100px;
+	background-color: #51AF33;
+	border: 1px solid #51AF33;
+	color: white;
+	padding: 3px;
+	border-radius: 3px;
+}
+
+.btn-inactive{
+	width: 100px;
+	background-color: #FF1A07;
+	border: 1px solid #FF1A07;
+	color: white;
+	padding: 3px;
+	border-radius: 3px;
+}
+
+.dot {
+	height: 10px;
+	width: 10px;
+	background-color: black;
+	border-radius: 50%;
+	display: inline-block;
+  }
+  .button-grouping {
+	 position: relative;
+	 left: 460px;
+	 bottom: 80px;
+
+  }
+
+
+  .filterDiv {
+	display: none; /* Hidden by default */
+  }
+  
+  /* The "show" class is added to the filtered elements */
+  .show {
+	display: block;
+  }
