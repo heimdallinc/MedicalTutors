@@ -109,230 +109,6 @@
 
 }
 
-
-@media( max-width:640px){
-    #ternary{
-        margin-top: 700px  !important;
-        position: relative;
-        left: 30%;
-    }
-    #theading{
-        margin-top: 700px  !important;
-    }
-
-    .latest-article .trending--cards{
-        margin-top: 700px !important;
-    }
-    .latest-article .trending{
-        position: relative;
-        top: 400px;
-    }
-    #t-card{
-       margin-top: 300px !important;
-       background-color: #F8F8F8;;
-       height:  800px; 
-    }
-    #t-card .row{
-        margin-left: 20%;
-    }
-    #ternary .row{
-        margin-bottom: 1400px !important;
-        position: relative;
-        right: 25%;
-    }
-
-    .people--say{
-        margin-top: 900px;
-    }
-    .people--say .row{
-        margin-top: 50px;
-    }
-    #t-card .row{
-        margin-bottom: 100px !important;
-    }
-   
-}
-
-
-@media( max-width:796px){
-        
-        .section .main{
-            position: absolute !important;
-            right: 100px !important;
-        }
-        .trending{
-            margin-top: 300px;
-        }
-        .why--choose{
-            height: 700px !important;
-        }
-        .why--choose .all{
-            margin-top: 170px;
-        }
-
-        .browse{
-            margin-top: 190px;
-        }
-        .section .row{
-            position: relative;
-            right: 30%;
-        }
-         .main{
-            position: relative !important;
-            left: 30%;
-            bottom: 100px;
-        }
-            
-        .two--buttons{
-            display: flex;
-        }    
-        .circle-img{
-            display: none;
-        }
-
-        #ternary{
-            margin-top: 10px;
-        }
-        #ternary .row{
-                margin-top: 1400px !important;
-                margin-left: 10%;
-               
-        }
-        latest-article .row, .latest-article{
-            margin-top: 1500px !important;
-            /* height: 1500px; */
-        }
-
-        .latest-article .trending .row{
-            /* height: ; */
-                        background-color: #fff !important;
-
-        }
-        .latest-article #t-card{
-            /* margin-top: 1px; For background */
-            /* margin-left: 30px; */
-                        background-color: #fff !important;
-
-        }
-        #t-card .row{
-            margin-top: 800px;
-             position: relative;
-            left: 20% !important;
-        }
-        .trending--cards{
-            /* background-color: white; */
-        }
-        .people--say .row{
-            margin-top: 1000px;
-        }
-        .browse .row{
-            margin-top: 800px;
-        }
-        .browse--cards .row{
-            margin-top: 900px ;
-        }
-        footer .container{
-            margin-top: 500px;
-        }
-
-      
-
-}
-
-@media( max-width:1000px){
-
-    .section--right{
-        display: none;
-    }
-
-    .circle-img{
-        position: absolute;
-        margin-left: auto ;
-        margin-right: auto ;
-        max-width: 50%;
-        height: auto;
-        left: 0;
-        right: 400px;
-        text-align: center;
-    }
-    .vl{
-        display: none;
-    }
-    #vl2{
-        display: none;
-    }
-    .losign{
-        display: flex;
-        justify-content: space-between;
-    }
-    .losign li a{
-        color: #06163a;
-    }
-    .nav-input{
-        width: 100px;
-    }
-    .section--left{
-        position: relative;
-        /* left: 45% !important; */
-        left: 35% !important;
-        /* right:30% !important; */
-        /* background-color: red; */
-        text-align: center;
-      
-     }
-    .trending--cards{
-        margin-top: 180px;
-    }
-    .latest-article{
-        margin-top: 400px;
-    }
-    .latest-article .trending--cards{
-        height: 50em !important;
-        margin-top: -30px;
-        margin-bottom: 30%;
-    }
-
-    .get--started{
-        display: none;
-    }
-    .advert{
-        display: none;
-    }
-    .browse{
-        margin-top: 190px;
-    }
-    .insight{
-        display: none;
-    }
-    
-}
-
-
-/* @media (min-width: 1300px){
-
-    .section--right .pic3{
-        position: relative; */
-        /* top: -500px; */
-    /* }
-
-} */
-
-@media( max-width:1221px){
-    .pic1{
-        position: relative;
-        left: 30px;
-    }
-    body,html{
-        /* background-color: red; */
-    }
-}
-
-
-@media(min-width: 1000px) and (max-width: 1400px){
-    /* .body,html{
-        background-color: green !important;
-    } */
-
     .navbar{
         background-color: green !important;
     }
@@ -353,50 +129,7 @@
         color: #06163A;
         opacity: 1;     
     }
-  .last--text{
-        font-size: 15px !important;
-    }
-    .trending--cards{
-        margin-top: 190px;
-   }
 
-   .get--started{
-       margin-top: 190px;
-       margin-left: -100px;
-   }
-   .people--say{
-       margin-top: 100px;
-       
-   }
-   .latest-article{
-        /* background-color: #F8F8F8; */
-   }
-   .latest-article .trending--cards{
-       height: 50em !important;
-       margin-top: -30px;
-       margin-bottom: 30%;
-   }
-   .latest-article .card{
-       margin-top: 30px;
-   }    
-   
-   .people--say .row{
-       margin-top: 50px;
-       margin-bottom: 500px !important;
-       display: grid !important;
-       grid-template-columns: 1fr 1fr ;
-       grid-row-gap: 30px;
-       margin-left: 180px;
-       /*text-align: center;*/
-       
-   }
-   /*.row .cardddd{*/
-   /*    margin-left: 200px !important;*/
-   /*} */
-
-
-
-}
 
 
 @media(min-width: 1100px) and (max-width: 1450px){
@@ -423,29 +156,7 @@
         color: #06163A;
         opacity: 1;     
     }
-    /* .section--right .pic3{
-        position: relative !important;
-        left: 50%;
-        bottom: 130px;
-    } */
-
-    /* .caddy{
-        position: relative;
-        bottom: 190px;
-    } */
-
-    .trending--cards{
-         margin-top: 190px;
-    }
-      .advert--testing{
-    position: absolute;
-    top: 80px;
-    left: 45%;
-    font-size: 15px !important;
-    font-family: 'Gordita Medium', cursive;
-
-    
-}
+  
 }
 
 
@@ -696,7 +407,9 @@
     padding: 10px;
     
 }
-
+.all--logos .row div img{
+    object-fit: contain;
+}
 .all .course--description{
     font-family: 'Gordita Regular', cursive;
     
@@ -706,9 +419,18 @@
      font-size: 30px !important;
      font-weight: lighter !important;
 }
-
-.all--logos{
-    height: 150px;
+@media (max-width: 1150px) {
+    .trending-txt{
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .tranding-buttons{
+        margin-top: 15px;
+    }
+    .tranding-box{
+        display: flex;
+        flex-direction: column;
+    }
 }
 .logos--text{
     display: flex;
@@ -726,20 +448,16 @@
    /* background-color: red; */
 
 }
-.all--logos .row{
-    width: 100%;
 
-}
-
-.trending{
+/* .trending{
     height: 150px;
-    /* background-color: red; */
+    background-color: red;
     width: 100%;
     display: flex;
     justify-content: stretch;
     align-items: center;
     text-align: center;
-}
+} */
 .trending--container span{
     font-size: 20px;
     font-weight: bold;
@@ -750,31 +468,37 @@
     right: 20%;
     
 }
-
-.trending .row{
-     width: 100%;
+.img-fluid{
+    object-fit: contain;
+    width: 100%;
 }
-
-.trending--cards{
-    height: 500px;
+.get--started{
+    position: relative;
+    width: 60%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    /* background-color: green; */
-    /* text-align: center; */
+    height: 200px;
+    background-image: url(../img/get\ started\ bg.svg);
 }
+
+.getstarted-btn{
+    height: 50px;
+    width: 170px;
+    font-size: 15px;
+    background-color: #FDC935;
+    color: #06163A;
+} 
 
 .card1,.card2,.card3,.card4{
-    width: 300px;
     box-shadow: none;
-    margin-left: 80px;
 }
 
 .bg-image img{
-    border-radius: 10px;
+    border-radius: 5px;
 }
 .card-title{
-    font-weight: bold;
+    font-weight: 300;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
     font-family: 'Gordita Medium', cursive;
 
 }
@@ -788,6 +512,16 @@
     color: #5E67FE;
     margin-top: 5px;
     margin-bottom: 10px;
+}
+.card-body{
+    padding: 0;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card-body a{
+    width: 120px;
 }
 
 .card-btns{
@@ -804,12 +538,13 @@
     font-size: 20px;
 }
 
-.card-text1{
-     /* margin-top: 30px;  */
-    margin-bottom: 30px;
+.card-text{
+    margin: 15px 0;
+    font-size: 12px;
 }
-.card-text3{
-    margin-top: 20px; 
+.card-text span img{
+    height: 15px;
+    width: 15px;
     /* margin-bottom: 50px; */
 }
 .for-doctors{
@@ -822,82 +557,52 @@
     margin-bottom: 5px;
 }
 
-.get--started{
-    height: 300px;
-    position: relative;
-    left: 25%;
-    top: 50px;
-  
-  
-}
-.get--started-card{
-    position: absolute;
-    top: 0;
- 
-}
+
 .the1{
     margin-top: 10px;
 }
-
-.get--started .card-body .row{
-    /* display: flex;
-    align-items: center; */
-}
-
-.getstarted-btn{
-    height: 50px;
-    width: 190px;
-    font-size: 15px;
-    background-color: #FDC935;
-    color: #06163A;
-    /* margin-left: 70%; */
-    /* margin-top: 45px; */
-    position: absolute;
-    top: 60px;
-    left: 40em;
-    right: 0;
-}
-
 .right--course{
     font-size: 20px;
     font-weight: bold;
     color: #06163A;
-    margin-left: 40px;
     font-family: 'Gordita Medium', cursive;
 
 }
 .help{
-   margin-top: 50px;
-   margin-left: 40px;
    color: #2344C0;
    font-family: 'Gordita Regular', cursive;
-
+}
+.card-texts{
+    margin-left: 60px;
 }
 .trending-txt{
     font-family: 'Gordita Medium', cursive;
 }
 .btn-fln{
+    left: -35px;
+    top: -35px;
      position: absolute;
      width: 100px;
      height: 100px;
-     bottom: 100px;
-     right: 23em;
      font-family: 'Gordita Regular', cursive;
-     background-color: #2344C0;
-     
+     background-color: #2344C0; 
+}
+.find-help{
+    margin-top: 50px;
+    display: flex;
+    
 }
 .btn-fln i{
    font-size: 40px;
 }
 
 .people--say{
-    /* width: 100%; */
-    height: 500px;
     display: flex;
-    align-items: center;
     justify-content: space-around;
-    /* text-align: center; */
-    
+    margin-top: 15px;
+}
+.people--say > *{
+    margin: 5px;
 }
 .people--say .col:nth-child(1){
     position: relative;
@@ -905,8 +610,7 @@
 }
 .people--say .card{
     background-color: #F8F8F8;
-    height: 330px;
-    max-width: 270px;
+    height: 300px;
 }
 
 .people--say .row{
@@ -940,7 +644,7 @@
 }
 
 .browse{
-    height: 100px;
+    margin-top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -948,22 +652,21 @@
 
 .browse--cards{
     display: flex;
+    margin: 10px;
     justify-content: space-around;
     align-items: center;
-    height: 500px;
+    /* height: 500px; */
 }
 .browse--text-primary{
+    font-size: 18px;
     font-family: 'Gordita Medium', cursive;
 
 }
 .browse--text-secondary{
+    font-size: 12px;
     font-family: 'Gordita Regular', cursive;
 }
 
-.browse--cards .card{
-   max-width: 300px;
-   margin-left: 13%;
-}
 .browse--cards .row{
     width: 100%;
 }
@@ -1018,9 +721,6 @@
     
 }
 
-#t-card .card-title{
-    line-height: 1.5;
-}
 
 .str-btn{
     position: absolute;
