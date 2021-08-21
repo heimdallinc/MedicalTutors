@@ -23,84 +23,86 @@
 
 <body>
 
-
-
-  <div class="nav--info">
-    <img src="./img/virus.svg" alt="" height="20" style="margin-right: 4px;"> Wash your hands regularly and wear a face
-    mask. <span class="learn--text"> Learn more </span>
-  </div>
-
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <!-- Container wrapper -->
-    <div class="container-fluid nav-item-spacing">
-      <!-- Navbar brand -->
-      <a class="navbar-brand" href="/index.html">
-        <img src="./img/Brand Logo.png" alt="" loading="lazy" height="100px" />
-      </a>
-
-      <!-- Toggle button -->
-      <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fas fa-bars"></i>
-      </button>
-
-      <!-- Collapsible wrapper -->
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <!-- Left links -->
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <div class="vl"></div>
-          <div class="form-outline">
-            <i class="fas fa-search trailing" style="color: #2344C0;"></i>
-            <input type="text" id="form1" class="form-control form-icon-trailing nav-input" />
-            <label class="form-label" for="form1">Search...</label>
-          </div>
-
-          <!-- Navbar dropdown -->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle fw-bold" href="#" id="navbarDropdown" role="button"
-              data-mdb-toggle="dropdown" aria-expanded="false" style="color: #06163a;">
-              <span style="color: #06163a;"> All courses </span>
-            </a>
-            <!-- Dropdown menu -->
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="./pages/doctors.html">Doctors</a></li>
-              <li><a class="dropdown-item" href="./pages/nurses.html">NURSE EDUCATORS</a></li>
-              <li><a class="dropdown-item" href="./pages/generalpurpose.html">PUBLIC HEALTH EDUCATORS</a></li>
-              <li>
-                <hr class="dropdown-divider" />
-              </li>
-            </ul>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link a fw-bold" href="./pages/about.html">About Us</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link a fw-bold" href="./pages/getintouch.html">Contact</a>
-          </li>
-
-          <div id="vl2"></div>
-          <!-- Navbar dropdown -->
-
-        </ul>
-        <!-- Left links -->
-
-        <!-- Search form -->
-        <form class="d-flex  w-auto losign">
-          <li class="nav-item">
-            <a class="nav-link login fw-bold" href="./pages/login.html" style="color: #06163a;">Log in</a>
-          </li>
-          <button type="button" class="btn-signup fw-bold"> <a href="./pages/register.html"> Sign Up </a></button>
-        </form>
-      </div>
-      <!-- Collapsible wrapper -->
+  <section id="learn-more">
+    <div class="nav-info">
+      <img src="./img/virus.svg" alt="" class="nav-info-icon"> Wash your hands regularly and wear a face
+      mask. <span class="learn-text"> Learn more </span>
     </div>
-    <!-- Container wrapper -->
-  </nav>
-  <!-- Navbar -->
+  </section>
 
+  <section id="navbar">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <!-- Container wrapper -->
+      <div class="container-fluid nav-item-spacing">
+        <!-- Navbar brand -->
+        <a class="navbar-brand" href="/index.html">
+          <img src="./img/Brand Logo.png" alt="" loading="lazy" class="brand-logo" />
+        </a>
+
+        <!-- Toggle button -->
+        <!-- <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+          data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button> -->
+
+        <!-- Collapsible wrapper -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- Left links -->
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <div class="vl"></div>
+            <div class="form-outline">
+              <i class="fas fa-search trailing"></i>
+              <input type="text" id="form1" class="form-control form-icon-trailing nav-input" />
+              <label class="form-label" for="form1">Search...</label>
+            </div>
+
+            <!-- Navbar dropdown -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle fw-bold" href="#" id="navbarDropdown" role="button"
+                data-mdb-toggle="dropdown" aria-expanded="false" style="color: #06163a;">
+                <span style="color: #06163a;"> All courses </span>
+              </a>
+              <!-- Dropdown menu -->
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="./pages/doctors.html">DOCTORS</a></li>
+                <li><a class="dropdown-item" href="./pages/nurses.html">NURSE EDUCATORS</a></li>
+                <li><a class="dropdown-item" href="./pages/generalpurpose.html">PUBLIC HEALTH EDUCATORS</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link a fw-bold" href="./pages/about.html">About Us</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link a fw-bold" href="./pages/getintouch.html">Contact</a>
+            </li>
+
+            <div id="vl2"></div>
+            <!-- Navbar dropdown -->
+
+          </ul>
+          <!-- Left links -->
+
+          <!-- Search form -->
+          <form class="d-flex  w-auto losign">
+            <li class="nav-item">
+              <a class="nav-link login fw-bold" href="./pages/login.html" style="color: #06163a;">Log in</a>
+            </li>
+            <button type="button" class="btn-signup fw-bold"> <a href="./pages/register.html"> Sign Up </a></button>
+          </form>
+        </div>
+        <!-- Collapsible wrapper -->
+      </div>
+      <!-- Container wrapper -->
+    </nav>
+    <!-- Navbar -->
+  </section>
 
 
 
@@ -116,7 +118,7 @@
             <div class="last--text text-wrap">Learn 100% online Health education to doctors, nurses and <br> non-medical
               public. Develop career career-changing expertise <br>with our flexible courses.</div>
             <div class="two--buttons">
-              <button type="button" class="btn btn-outline-primary btn-small" data-mdb-ripple-color="dark">
+              <button type="button" class="btn btn-outline-primary btn-small learn" data-mdb-ripple-color="dark">
                 Learn More
               </button>
               <button class="btn btn-primary btn-large">Explore Courses</button>
@@ -194,144 +196,139 @@
         <div class="all--logos">
           <div class="row">
             <div class="col-md-2 col-sm-6 col-xs-6">
-              <img src="./img/partner 1.svg" alt="">
+              <img src="./img/partner 1.svg" alt="" class="logo-image">
             </div>
             <div class="col-md-2 col-sm-6 col-xs-6">
-              <img src="./img/partner 2.svg" alt="">
+              <img src="./img/partner 2.svg" alt="" class="logo-image">
             </div>
             <div class="col-md-2 col-sm-6 col-xs-6">
-              <img src="./img/partner 3.svg" alt="">
+              <img src="./img/partner 3.svg" alt="" class="logo-image">
             </div>
             <div class="col-md-2 col-sm-6 col-xs-6">
-              <img src="./img/partner 4.svg" alt="">
+              <img src="./img/partner 4.svg" alt="" class="logo-image">
 
             </div>
             <div class="col-md-2 col-sm-6 col-xs-6">
-              <img src="./img/partner 5.svg" alt="">
+              <img src="./img/partner 5.svg" alt="" class="logo-image">
 
             </div>
             <div class="col-md-2 col-sm-6 col-xs-6">
-              <img src="./img/partner 6.svg" alt="">
+              <img src="./img/partner 6.svg" alt="" class="logo-image">
             </div>
           </div>
         </div>
-
-
       </div>
-
     </div>
   </div>
 
 
   <!-- Trending Courses -->
-  <div class="trending" id="theading">
-    <div class="row">
-      <div class="col">
-        <div class="trending--container">
-          <span class="trending-txt"> Trending Courses </span>
-          <img src="./img/underline.svg" alt="" height="50px" class="trending--logo">
+  <section id="theading" class="theading">
+    <div class="trending" >
+      <div class="row">
+        <div class="col">
+          <div class="trending--container">
+            <span class="trending-txt"> Trending Courses </span>
+            <img src="./img/underline.svg" alt="" height="50px" class="trending--logo">
+          </div>
         </div>
-      </div>
-      <div class="col"></div>
-      <div class="col">
-        <button class="btn btn-primary"
-          style="background-color: #838383; color: #fff; box-shadow: none; margin-top: 10px;">For Doctors</button>
-        <span class="ms-4">NURSE EDUCATORS</span>
-        <span class="ms-4">PUBLIC HEALTH EDUCATORS</span>
+        <div class="col"></div>
+        <div class="col">
+          <button class="btn btn-primary"
+            style="background-color: #838383; color: #fff; box-shadow: none; margin-top: 10px;">For Doctors</button>
+          <span class="ms-4">For Nurses</span>
+          <span class="ms-4">For Public Health</span>
+        </div>
       </div>
     </div>
-  </div>
-
-
-  <div class="trending--cards" id="ternary">
-    <div class="row">
-      <div class="col">
-        <div class="card card1" data-aos="fade-up-right" data-aos-duration="1500">
-          <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-            <img src="https://mdbootstrap.com/img/new/standard/nature/111.jpg" class="img-fluid" />
-            <a href="#!">
-              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
-            </a>
+  
+    <div class="trending--cards container" id="ternary" >
+      <div class="row">
+        <div class="col-md-6 col-sm-12 col-lg-3">
+          <div class="card card1" data-aos="fade-up-right" data-aos-duration="1500">
+            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+              <img src="https://mdbootstrap.com/img/new/standard/nature/111.jpg" class="img-fluid" style="object-fit: contain;" />
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <a href="./pages/singlecourse.html" class="btn btn-primary card-btn ">Medicine</a>
+              <h6 class="card-title the1">Non-Communicable Diseases</h6>
+              <p class="card-text1">
+                <span> <img src="./img/time duration.svg" alt=""></span> Sept 8, 2020 - Sept 12, 2021
+              </p>
+  
+              <p class="money">&#8358;20,0000.<span class="small">00</span></p>
+  
+            </div>
           </div>
-          <div class="card-body">
-            <a href="./pages/singlecourse.html" class="btn btn-primary card-btn ">Medicine</a>
-            <h6 class="card-title the1">Non-Communicable Diseases</h6>
-            <p class="card-text1">
-              <span> <img src="./img/time duration.svg" alt=""></span> Sept 8, 2020 - Sept 12, 2021
-            </p>
-
-            <p class="money">&#8358;20,0000.<span class="small">00</span></p>
-
+        </div>
+  
+        <div class="col-md-6 col-sm-12 col-lg-3">
+          <div class="card card2" data-aos="fade-up" data-aos-duration="1500">
+            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+              <img src="https://mdbootstrap.com/img/new/standard/nature/111.jpg" class="img-fluid"style="object-fit: contain;"  />
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <a href="./pages/singlecourse.html" class="btn btn-primary card-btn">Medicine</a>
+              <h6 class="card-title the3">Improving Healthcare Through Clinical Research</h6>
+              <p class="card-text">
+                <span> <img src="./img/time duration.svg" alt=""></span> Sept 8, 2020 - Sept 12, 2021
+              </p>
+  
+              <p class="money">&#8358;64,0000.<span class="small">00</span></p>
+            </div>
+          </div>
+        </div>
+  
+  
+        <div class="col-md-6 col-sm-12 col-lg-3">
+          <div class="card card3" data-aos="fade-up" data-aos-duration="1500">
+            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+              <img src="https://mdbootstrap.com/img/new/standard/nature/111.jpg" class="img-fluid" style="object-fit: contain;" />
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <a href="./pages/singlecourse.html" class="btn btn-primary card-btns">Surgery</a>
+              <h6 class="card-title the4">Discover Dentistry</h6>
+              <p class="card-text3">
+                <span> <img src="./img/time duration.svg" alt=""></span> Sept 8, 2020 - Sept 12, 2021
+              </p>
+  
+              <p class="money">&#8358;120,0000.<span class="small">00</span></p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-6 col-sm-12 col-lg-3">
+          <div class="card card4" data-aos="fade-up-left" data-aos-duration="1500">
+            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+              <img src="https://mdbootstrap.com/img/new/standard/nature/111.jpg" class="img-fluid" style="object-fit: contain;" />
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+              </a>
+            </div>
+  
+            <div class="card-body">
+              <a href="./pages/singlecourse.html" class="btn btn-primary card-btn">Medicine</a>
+              <h6 class="card-title the5">Application of Digital Health Interventions</h6>
+              <p class="card-text">
+                <span> <img src="./img/time duration.svg" alt=""></span> Sept 8, 2020 - Sept 12, 2021
+              </p>
+              <p class="money">&#8358;120,0000.<span class="small">00</span></p>
+  
+            </div>
           </div>
         </div>
       </div>
-
-      <div class="col">
-        <div class="card card2" data-aos="fade-up" data-aos-duration="1500">
-          <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-            <img src="https://mdbootstrap.com/img/new/standard/nature/111.jpg" class="img-fluid" />
-            <a href="#!">
-              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
-            </a>
-          </div>
-          <div class="card-body">
-            <a href="./pages/singlecourse.html" class="btn btn-primary card-btn">Medicine</a>
-            <h6 class="card-title the3">Improving Healthcare Through Clinical Research</h6>
-            <p class="card-text">
-              <span> <img src="./img/time duration.svg" alt=""></span> Sept 8, 2020 - Sept 12, 2021
-            </p>
-
-            <p class="money">&#8358;64,0000.<span class="small">00</span></p>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="col">
-        <div class="card card3" data-aos="fade-up" data-aos-duration="1500">
-          <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-            <img src="https://mdbootstrap.com/img/new/standard/nature/111.jpg" class="img-fluid" />
-            <a href="#!">
-              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
-            </a>
-          </div>
-          <div class="card-body">
-            <a href="./pages/singlecourse.html" class="btn btn-primary card-btns">Surgery</a>
-            <h6 class="card-title the4">Discover Dentistry</h6>
-            <p class="card-text3">
-              <span> <img src="./img/time duration.svg" alt=""></span> Sept 8, 2020 - Sept 12, 2021
-            </p>
-
-            <p class="money">&#8358;120,0000.<span class="small">00</span></p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="card card4" data-aos="fade-up-left" data-aos-duration="1500">
-          <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-            <img src="https://mdbootstrap.com/img/new/standard/nature/111.jpg" class="img-fluid" />
-            <a href="#!">
-              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
-            </a>
-          </div>
-
-          <div class="card-body">
-            <a href="./pages/singlecourse.html" class="btn btn-primary card-btn">Medicine</a>
-            <h6 class="card-title the5">Application of Digital Health Interventions</h6>
-            <p class="card-text">
-              <span> <img src="./img/time duration.svg" alt=""></span> Sept 8, 2020 - Sept 12, 2021
-            </p>
-            <p class="money">&#8358;120,0000.<span class="small">00</span></p>
-
-          </div>
-        </div>
-      </div>
-
-
-
     </div>
-  </div>
+  </section>
 
   <!-- </div> -->
 
@@ -700,7 +697,7 @@
           <ul class="list-unstyled">
             <li>
               <div class="form-outline">
-                <i class="fas fa-search trailing" style=" color: #2344C0;"></i>
+                <i class="fas fa-search trailing" style="color: #2344C0;"></i>
                 <input type="text" id="form1" class="form-control form-icon-trailing nav-input"
                   style="background-color: #fff;" />
                 <label class="form-label" for="form1">Search...</label>
