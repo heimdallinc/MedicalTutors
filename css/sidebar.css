@@ -115,7 +115,10 @@ html,body{
 }
 
 .hi{
-	font-family: 'Gordita Bold';	
+	font-family: 'Gordita Bold';
+	color: #06163A;
+	font-size: 25px;
+	font-weight: 400;	
 }
 
  #nav-sidebar {
@@ -138,7 +141,7 @@ html,body{
 	-moz-transition: all 0.5s ease;
 	-o-transition: all 0.5s ease;
 }
-
+ 
 
 .sidebar-expand {
 	display: inline-flex;
@@ -164,12 +167,12 @@ html,body{
     
 }
 .sidebar-content{
-    padding: 0 1rem;
+    /* padding: 0 1rem; */
 }
 .nav-pills .nav-item,a{
     display: flex;
     justify-content: center;
-    color: #06163A;
+    color: #06163b;
     padding-bottom:10px ;
     /* font-weight: 600; */
 }
@@ -188,8 +191,7 @@ i{
 	} */
 }
 
-@media(max-width:563px){
-	
+@media(max-width:563px){	
 	body,html{
 		overflow-y: visible;
 		overflow-x: visible;
@@ -201,7 +203,24 @@ i{
 		bottom: 10px;
 	}
 }
-
+.view-profile{
+	background-color: #EFF2FF;
+	margin-right: 20px;
+	color: #06163A;
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+	box-shadow: none;
+}
+.profile--btn{
+	background-color: #EFF2FF;
+	color: #06163A;
+	box-shadow: none;
+}
+.profile--icon{
+	color: #4F84CF;
+	font-size: 15px;
+}
 
 @media (max-width:769px) {
 	#nav-topbar .brand-container,
@@ -290,10 +309,13 @@ i{
 
 .instructor{
 	background: #FFDE91;
+	font-size: 10px;
 	padding: 5px;
+	font-weight: 500 !important;
 	margin-left: 10px;
 	color: #06163A;
 	position: relative;
+	border-radius: 2px;
 	bottom: 5px;
 	font-family: 'Gordita Regular';
 }
@@ -301,4 +323,33 @@ i{
 .secondary-text{
 	color: #2F3C47;
 	margin-top: 10px;
+	font-size: 14px;
+	font-weight: 400;
+}
+.bell-bg{
+	background-color: #EFF2FF !important;
+	margin-right: 20px !important;
+	color: #06163A !important;
+	height: 100px !important;
+	width: 100px !important;
+	position: relative !important;
+	font-size: 4em !important;
+	top: 20% !important;
+	left: 10% !important;
+	box-shadow: none !important;
+}
+.card--text{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin: 20px;
+}
+.card--text h5{
+	font-size: 35px;
+	color: #06163A;
+}
+
+.dashboard--card{
+	max-width: 540px;
+	height: 140px;
 }
