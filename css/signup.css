@@ -105,48 +105,64 @@ body, html {
     overflow-x: hidden;
   }
 .container{
-    /* display: flex;
-    justify-content: center; */
-    /* align-content: center;  */
-    margin: 50px auto;
     position: relative;
-    right: 10%;
 }
 
 
 .centered__box{
-    height: 80vh;
+    /* height: 80vh; */
     max-width: 100%;
-    background-image: url('../img/medic.jpg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    object-fit: cover;
-    background-position: center;
-   /* display: flex; */
+    display: flex;
+    align-items: center;
 }
 .card{
-    max-width: 750px;
-    height: auto;
-    position: relative;
-    top: -5%;
-    left: 48%;
-    height: 570px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding: 0 20px;
 }
-.card-body{
-    /* display: grid; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* width: 80%; */
-    /* position: relative;
-    left: 10%; */
+.banner-side{
+    background-image: url('../img/medic.jpg');
+    width: 60%;
+    height: 500px;
+}
+@media (max-width: 1000px) {
+    .banner-side{
+        display: none;
+    }
+    
+}
+.input-selector{
+    width: 100%;
+    font-size: 14px;
+    height: 45px;
+    border-radius: 5px;
+}
+.input-selector::placeholder{
+    color: rgba(51, 49, 49, 0.486) !important;
+    padding: 5px !important;
+}
+label{
+    font-size: 14px;
 }
 .select:not(.is-multiple):not(.is-loading)::after {
     border-color: #000;
 }
+.back--home-btn{
+    /* width: 100px; */
+    background-color: #fdc935;
+    color: black;
+    padding: 10px 15px;
+    font-size: 10px;
+}
+.register--btn{
+    padding: 15px 10px;
+}
 .file{
-    min-width: 80px;
+    width: 100% !important;
+}
+.file>*{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0 !important;
 }
 
 h5{
@@ -157,51 +173,19 @@ h5{
 }
 
 .b{
+    font-size: 13px;
+    font-weight: 400;
+    text-align: right;
     font-family: 'Gordita Regular';
 }
 
 
 @media (min-width:1745px){
-
-      .card{
-          max-width: 870px;
-          height: 90vh !important;
-      }
       .dropa{
            max-width: 10px !important;
            height: 100px;
       }
 }
-
-@media (max-width:500px){
-    .card{
-        height: 780px;
-        /* display: flex;
-        position: relative;
-        left: 100px; */
-        /* margin: auto; */
-        position: absolute !important;
-    }
-}
-
-@media (max-width:800px){
-    .card{
-        height: 780px;
-        display: flex;
-        position: absolute;
-        left: 30%;
-    }
-  
-
-}
-
-@media (min-width:800px){
-    .card{
-        height: 750px;
-    }
-}
-
-
 @media (min-width:1300px){
     .last-btn{
         margin-top: 100px !important;

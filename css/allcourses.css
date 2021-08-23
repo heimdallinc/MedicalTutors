@@ -265,11 +265,17 @@ body,html{
 .trending .row{
      width: 100%;
 }
-
+.card{
+    height: 350px;
+    padding: 10px;
+}
 .trending--cards1{
     margin-top: 20px;
 }
-
+ .card-body{
+     margin-top: 10px;
+     padding: 0;
+ }
 .card-title{
     font-family: 'Gordita Medium', cursive;
     margin-top: 5px;
