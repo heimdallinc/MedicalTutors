@@ -233,89 +233,71 @@ body,html{
       height:400px;
       width: 100%;
   }
-
-/*   
-  .img-fluid{
-      width: 100%;
-      
-  } */
-
-.advert{
-    /* background-color: red; */
-    height: 300px;
-    align-items: center;
-    /* position: relative; */
-}
-.advert--box{
-    background: url(../img/get\ started\ bg.svg);
+  .advert-section{
     position: relative;
-    top: 100px;
-    min-height: 170px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    /* left: 25%; */
-    width: 100%;
-    display: flex;
+    /* width: 100%; */
+    margin: 20px 70px;
+    height: 150px;
+}
+  .advert--box {
     justify-content: space-around;
-    align-items: center;
-
+    position: absolute;
+    width: 100%;
+    top: 20px;
+    align-items: center !important;
 }
 .advert--image{
-    /* width: 150px;
-    height: 150px; */
-    /* border-radius: 50%; */
     width: 100px;
-    /* position: absolute; */
-    top: 50px;
-    left: 13%;
 }
 .advert--text{
     font-weight: bold;
     color: #2344C0;
-    font-size: 20px;
-    top: 90px;
-    left: 2%;
+    font-size: 18px;
     font-family: 'Gordita Medium', cursive;
+}
+.aderts--bg{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .advert--testing{
-    /* position: absolute; */
-    top: 80px;
-    left: 20%;
-    font-family: 'Gordita Medium', cursive;    
+
+    font-family: 'Gordita Medium', cursive;   
 }
 @media (max-width: 1000px) {
-    .advert--box{
-        margin: 0  auto !important;
-    }
     .advert--text{
-        font-size: 15px;
+        font-weight: 500;
+        font-size: 10px;
+    }
+    .advert--image{
+        display: none;
     }
     .advert--testing{
-        font-size: 13px;
+        font-size: 8px;
+        font-family: 'Gordita Medium', cursive;   
     }
-}
-@media (max-width: 750px) {
-    .advert--text{
-        font-size: 12px;
-        font-weight: 400;
-    }
-    .advert--box{
-        display: flex;
-        flex-direction: column;
-        padding: 10px 0;
-
-    }
-    .advert--testing{
-        
+    .str-btn{
         font-size: 10px;
         font-weight: 300;
     }
-    /* .advert--image{
-        display: none;
-    } */
+    .advert--box{
+        top: 50px;
+    }
 }
+@media (max-width: 750px) {
+    .advert--box{
+        justify-content: initial;
+    }
+    .advert-section{
+        width: 100%;
+        margin: 20px 0;
+    }
+    .advert--box>*{
+        margin: 0 auto;
+    }
+}
+
 
 .str-btn{
     top: 100%;

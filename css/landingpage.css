@@ -462,21 +462,94 @@
     object-fit: contain;
     width: 100%;
 }
-.get--started{
+
+
+.get-started{
+    margin-top: 50px;
+    width: 100%;
+    height: 150px;
     position: relative;
-    width: 60%;
-    display: flex;
-    height: 200px;
-    background-image: url(../img/get\ started\ bg.svg);
+}
+.get-started-bg{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.advert-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
 }
 
+.get-started-small-text{
+    font-size: 16px !important;
+    font-weight: 500;
+    color: blue;
+}
+.get-started-big-text{
+    font-size: 20px;
+    font-weight: 600;
+}
 .getstarted-btn{
     height: 50px;
     width: 170px;
     font-size: 15px;
     background-color: #FDC935;
     color: #06163A;
-} 
+}
+.btn-fln{
+    left: -35px;
+    top: -35px;
+     position: absolute;
+     width: 100px;
+     height: 100px;
+     font-family: 'Gordita Regular', cursive;
+     background-color: #2344C0; 
+}
+.btn-fln i{
+   font-size: 40px;
+}
+@media (max-width: 800px) {
+    .advert-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+.btn-fln{
+    left: -20px;
+    top: -20px;
+     width: 70px;
+     height: 70px;
+}
+.btn-fln i{
+   font-size: 25px;
+}
+    .getstarted-btn{
+        height: 50px;
+        width: 140px;
+        font-size: 12px;
+    }
+    .get-started-small-text{
+        font-size: 14px !important;
+        font-weight: 400;
+    }
+    .get-started-big-text{
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
+
+
+
+
 
 .card1,.card2,.card3,.card4{
     box-shadow: none;
@@ -558,34 +631,13 @@
     font-family: 'Gordita Medium', cursive;
 
 }
-.help{
-   color: #2344C0;
-   font-family: 'Gordita Regular', cursive;
-}
 .card-texts{
     margin-left: 60px;
 }
 .trending-txt{
     font-family: 'Gordita Medium', cursive;
 }
-.btn-fln{
-    left: -35px;
-    top: -35px;
-     position: absolute;
-     width: 100px;
-     height: 100px;
-     font-family: 'Gordita Regular', cursive;
-     background-color: #2344C0; 
-}
-.find-help{
-    margin-top: 50px;
-    display: flex;
-    width: 100%;
-    
-}
-.btn-fln i{
-   font-size: 40px;
-}
+
 
 .people--say{
     display: flex;
@@ -673,60 +725,69 @@
 
 }
 
-.advert{
-    /* background-color: red; */
-    height: 490px;
-    align-items: center;
-    /* position: relative; */
-}
-.advert--box{
+.advert-section{
     position: relative;
-    height: 190px;
-
+    /* width: 100%; */
+    margin: 20px 70px;
+    height: 150px;
+}
+  .advert--box {
+    justify-content: space-around;
+    position: absolute;
+    width: 100%;
+    top: 20px;
+    align-items: center !important;
 }
 .advert--image{
-    
-    position: absolute;
-    top: 50px;
-    left: 24%;
-    max-width: 30%;
-    height: 190px;
+    width: 100px;
 }
 .advert--text{
     font-weight: bold;
     color: #2344C0;
-    font-size: 20px;
-    position: absolute;
-    top: 90px;
-    left: 10%;
+    font-size: 18px;
     font-family: 'Gordita Medium', cursive;
+}
+.aderts--bg{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .advert--testing{
-    position: absolute;
-    top: 80px;
-    left: 45%;
-    font-size: 23px;
-    font-family: 'Gordita Medium', cursive;
 
-    
+    font-family: 'Gordita Medium', cursive;   
 }
-
-
-.str-btn{
-    position: absolute;
-    top: 100px;
-    left: 80% ;
-    background-color: #FDC935;
-    color: #06163A;
-    font-size: 15px;
-    font-family: 'Gordita Medium', cursive;
-    
+@media (max-width: 1000px) {
+    .advert--text{
+        font-weight: 500;
+        font-size: 10px;
+    }
+    .advert--image{
+        display: none;
+    }
+    .advert--testing{
+        font-size: 8px;
+        font-family: 'Gordita Medium', cursive;   
+    }
+    .str-btn{
+        font-size: 10px;
+        font-weight: 300;
+    }
+    .advert--box{
+        top: 50px;
+    }
 }
-.adt-img{
-    width: 100%;
-    /* height: auto; */
-    height: 300px;
+@media (max-width: 750px) {
+    .advert--box{
+        justify-content: initial;
+    }
+    .advert-section{
+        width: 100%;
+        margin: 20px 0;
+    }
+    .advert--box>*{
+        margin: 0 auto;
+    }
 }
 
 
